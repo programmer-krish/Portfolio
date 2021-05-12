@@ -1,6 +1,8 @@
 import React from "react";
 import "./work.scss";
 
-export const Work = () => {
-  return <div className="work"></div>;
+const Work = () => {
+  return <div className="work" id="work"></div>;
 };
+
+export default Work;

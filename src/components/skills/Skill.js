@@ -1,6 +1,8 @@
 import React from "react";
 import "./skill.scss";
 
-export const Skill = () => {
-  return <div className="skill"></div>;
+const Skill = () => {
+  return <div className="skill" id="skill"></div>;
 };
+
+export default Skill;

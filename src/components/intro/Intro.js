@@ -1,6 +1,8 @@
 import React from "react";
 import "./intro.scss";
 
-export const intro = () => {
-  return <div className="intro"></div>;
+const Intro = () => {
+  return <div className="intro" id="intro"></div>;
 };
+
+export default Intro;
